@@ -1,0 +1,398 @@
+[
+  {
+    "id": "show-1",
+    "name": "Show 1",
+    "rows": {
+      "platinum": [
+        {
+          "number": "A1",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A2",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A3",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A4",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A5",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A6",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A7",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        }
+      ],
+      "gold": [
+        {
+          "number": "G1",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        },
+        {
+          "number": "G2",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        },
+        {
+          "number": "G3",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        },
+        {
+          "number": "G4",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        },
+        {
+          "number": "G5",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        },
+        {
+          "number": "G6",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        }
+      ],
+      "silver": [
+        {
+          "number": "S1",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S2",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S3",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S4",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S5",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S6",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S7",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "show-2",
+    "name": "Show 2",
+    "rows": {
+      "platinum": [
+        {
+          "number": "A1",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A2",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A3",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A4",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A5",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A6",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A7",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        }
+      ],
+      "gold": [
+        {
+          "number": "G1",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        },
+        {
+          "number": "G2",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        },
+        {
+          "number": "G3",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        },
+        {
+          "number": "G4",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        },
+        {
+          "number": "G5",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        },
+        {
+          "number": "G6",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        }
+      ],
+      "silver": [
+        {
+          "number": "S1",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S2",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S3",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S4",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S5",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S6",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S7",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "show-3",
+    "name": "Show 3",
+    "rows": {
+      "platinum": [
+        {
+          "number": "A1",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A2",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A3",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A4",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A5",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A6",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        },
+        {
+          "number": "A7",
+          "class": "platinum",
+          "price": 320,
+          "isAvailable": true
+        }
+      ],
+      "gold": [
+        {
+          "number": "G1",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        },
+        {
+          "number": "G2",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        },
+        {
+          "number": "G3",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        },
+        {
+          "number": "G4",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        },
+        {
+          "number": "G5",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        },
+        {
+          "number": "G6",
+          "class": "gold",
+          "price": 280,
+          "isAvailable": true
+        }
+      ],
+      "silver": [
+        {
+          "number": "S1",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S2",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S3",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S4",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S5",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S6",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        },
+        {
+          "number": "S7",
+          "class": "silver",
+          "price": 240,
+          "isAvailable": true
+        }
+      ]
+    }
+  }
+]

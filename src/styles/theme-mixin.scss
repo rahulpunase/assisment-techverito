@@ -1,0 +1,8 @@
+@import "variables";
+@mixin theme-aware($key, $color) {
+    @each $theme-name, $theme-color in $theme-colors {
+        .#{$theme-name} & {
+            #{$key}: map-get(map-get($theme-colors, $theme-name), $color)
+        }
+    }
+}

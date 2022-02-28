@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useEffect} from "react";
+import "./App.scss";
+import {RouterConfiguration} from "./router-configurations/router-configuration";
+import {useDispatch} from "react-redux";
+import {addShowDetails} from "./redux/actions/show-details.action";
+import mockedJsonData from "./data/show-details.json";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const dispatch = useDispatch();
+	useEffect(() => {
+		dispatch(addShowDetails(mockedJsonData));
+	}, [])
+	return (
+		<div className="app__component">
+			<div className="container">
+				<div className="centralized-container">
+					<RouterConfiguration/>
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default App;

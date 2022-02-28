@@ -1,0 +1,47 @@
+//colors
+$primary: #384ea9;
+$primary-light: #e4efff;
+$primary-dark: #273677;
+$background-dark: #363636;
+$dark-font-color: #3e3e3e;
+$background-app: #e1e1e1;
+$highlight-box: #e6e6e6;
+$dark-background-app: rgba(97, 96, 96, 0.81);
+$dark-highlight-box: rgba(54, 54, 54, 0.67);
+$white: #fff;
+
+$theme-colors: (
+	'light': (
+		'btn-primary-bg': $primary,
+		'btn-primary-color': $primary-light,
+		'btn-light-bg': $primary-light,
+		'btn-light-color': $primary-dark,
+		'btn-color': $primary-light,
+		'btn-dark': $primary-dark,
+		'app-background-cover':$background-app,
+		'app-background-box': $highlight-box,
+		'body-font-color': $dark-font-color,
+		'container-border': 2px solid $background-dark,
+		'font': $background-dark
+	),
+	'dark': (
+		'btn-primary-bg': $primary-light,
+		'btn-primary-color': $primary,
+		'btn-light-bg': $primary-light,
+		'btn-light-color': $primary-dark,
+		'btn-color': #e4efff,
+		'btn-dark': #273677,
+		'bg-design': #ccc,
+		'app-background-cover':$dark-background-app,
+		'app-background-box': $dark-highlight-box,
+		'body-font-color': $white,
+		'container-border': 2px solid $primary-light,
+		'font': $primary-light
+	),
+);
+
+
+@function theme-color($key, $variant) {
+	$map: map-get($theme-colors, $key);
+	@return map-get($map, $variant);
+}

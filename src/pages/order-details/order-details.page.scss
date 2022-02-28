@@ -1,0 +1,28 @@
+.order-detail__page {
+	.heading {
+		font-size: 1.6em;
+		text-align: center;
+		padding: 0 10px;
+		border-bottom: 1px solid black;
+	}
+	.detail-content {
+		.row {
+			text-align: center;
+			font-size: 1.6em;
+		}
+		margin-top: 30px;
+	}
+	.actions {
+		display: flex;
+		justify-content: center;
+		margin-top: 30px;
+		button {
+			margin: 0px 10px;
+		}
+	}
+	.back-button {
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
+	}
+}
